@@ -14,7 +14,6 @@ export class ServerDevicedetectorComponent implements OnInit {
     public service: DeviceServiceService) { }
 
   ngOnInit(): void {
-    //this.deviceInfo = this.deviceDetectorService.getDeviceInfo();
     this.getDeviceInfo();
   }
 
